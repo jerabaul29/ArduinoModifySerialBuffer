@@ -7,6 +7,7 @@ Implementation of separate RX and TX buffers for the serial port of the Arduino 
 To install the code, copy the whole arduino_CustomBuffer folder and all its content as /hardware/arduino/cores/arduino_CustomBuffer in the tree of the code for your Arduino IDE and add the following declaration to your boards.txt file, located in hardware/arduino/boards.txt . For more information about the code Mod, see my website: ADD LINK.
 
  ##############################################################
+ 
  # an arduino uno on which the serial buffer sizes have been
  # modified
 
