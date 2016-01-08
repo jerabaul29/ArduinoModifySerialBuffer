@@ -38,3 +38,9 @@ To use the code mod, select Arduino Uno (Custom Buffer) in the board menu of the
 #define SERIAL_BUFFER_SIZE_RX 1088
 #define SERIAL_BUFFER_SIZE_TX 32
 ```
+
+# Troubleshooting
+
+For any comments / requests / bug report, contact me at:
+
+jeanra@math.uio.no
