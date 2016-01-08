@@ -32,4 +32,9 @@ unoCB.build.variant=standard
 
 # Using the code mod
 
-To use the code mod, select Arduino Uno (Custom Buffer) in the board menu of the Arduino IDE.
+To use the code mod, select Arduino Uno (Custom Buffer) in the board menu of the Arduino IDE. If you want to modify the default setting for the modified buffers sizes, change the following code lines in HardwareSerial.cpp:
+
+```
+#define SERIAL_BUFFER_SIZE_RX 1088
+#define SERIAL_BUFFER_SIZE_TX 32
+```
